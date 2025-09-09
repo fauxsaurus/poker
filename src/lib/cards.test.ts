@@ -1,4 +1,4 @@
-import {createDeck, shuffleDeck} from './cards'
+import {createDeck} from './cards'
 
 const deckLengthStandard = 52
 const deckLengthJoker = 54
