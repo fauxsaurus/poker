@@ -1,4 +1,4 @@
-type IInt = number
+export type IInt = number
 
 /** @note Used for displaying non-shuffled decks to showcase future deck art variants. */
 export const createDeck = (jokers = 0): IInt[] => {
