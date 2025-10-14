@@ -1,10 +1,10 @@
-import {createDeck, shuffleDeck, type IInt} from './cards'
+import {createDeck, shuffleDeck, type IICard} from './cards'
 
 const deckLengthStandard = 52
 const deckLengthJoker = 54
 
 /** @returns Boolean (indicating if the array contents are in sequential order) */
-const isDeckInOrder = (int: IInt, i: IInt, array: IInt[]) => (array[i - 1] ?? -1) + 1 === int
+const isDeckInOrder = (int: IICard, i: IICard, array: IICard[]) => (array[i - 1] ?? -1) + 1 === int
 
 const actualDeckStandard = createDeck()
 
